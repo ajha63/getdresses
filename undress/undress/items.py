@@ -27,7 +27,7 @@ class UndressItem(scrapy.Item):
     sub_cat = scrapy.Field()
     brand_name = scrapy.Field()
     cover_image_url = scrapy.Field()
-    cover_image_caption = scrapy.Field()
+    #cover_image_caption = scrapy.Field()
     supplier_name = scrapy.Field()
     combi_name1 = scrapy.Field()
     combi_value1 = scrapy.Field()
